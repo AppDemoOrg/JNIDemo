@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/huangweiqi/StudioProjects/JNIDemo/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/huangweiqi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/huangweiqi/StudioProjects/JNIDemo/app/.externalNativeBuild/cmake/release/armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/huangweiqi/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/huangweiqi/StudioProjects/JNIDemo/app/.externalNativeBuild/cmake/release/armeabi --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=/Users/huangweiqi/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/huangweiqi/Library/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/huangweiqi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/huangweiqi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/armeabi/include -isystem /Users/huangweiqi/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/huangweiqi/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=15 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Os -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/huangweiqi/StudioProjects/JNIDemo/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/huangweiqi/StudioProjects/JNIDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "/Users/huangweiqi/StudioProjects/JNIDemo/app/build/intermediates/cmake/release/obj/armeabi/libnative-lib.so",
+			"toolchain" : "2812533952334829134"
+		}
+	},
+	"toolchains" : 
+	{
+		"2812533952334829134" : 
+		{
+			"cCompilerExecutable" : "/Users/huangweiqi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/huangweiqi/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
