@@ -33,7 +33,8 @@ C++由程序员来管理，利用率上面就好多了。
 3、JAVA程序可以使用分布式对象技术，如JAVA IDL API    
 
 ### 参考文献     
-1、[Android Studio jni开发入门——看我就够了](http://mobile.51cto.com/android-536653.htm)      
-2、[android中JNI的用途及简单使用](https://blog.csdn.net/shirly_yy/article/details/53883736)       
-3、[JNA简介及使用](http://forestqqqq.iteye.com/blog/1941631)        
-4、[JNA—JNI终结者](https://blog.csdn.net/shendl/article/details/3589676)        
+1、[Android Studio jni开发入门——看我就够了](http://mobile.51cto.com/android-536653.htm)         
+2、[android中JNI的用途及简单使用](https://blog.csdn.net/shirly_yy/article/details/53883736)        
+3、[JNA简介及使用](http://forestqqqq.iteye.com/blog/1941631)         
+4、[JNA—JNI终结者](https://blog.csdn.net/shendl/article/details/3589676)         
+5、[android中JNI的用途及简单使用](https://blog.csdn.net/shirly_yy/article/details/53883736)       
